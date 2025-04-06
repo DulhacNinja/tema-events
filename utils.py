@@ -7,7 +7,7 @@ def generate_city():
     return random.choice(list(config.SOURCES.keys()))
 
 
-def generate_stationid(city):
+def generate_station_id(city):
     return random.choice(config.SOURCES[city])
 
 
@@ -23,9 +23,9 @@ def generate_wind():
     return round(random.uniform(0, 100), 2)
 
 
-def generate_direction():
-    directions = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
-    return random.choice(directions)
+def generate_dir():
+    dirs = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
+    return random.choice(dirs)
 
 
 def generate_date():

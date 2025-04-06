@@ -2,38 +2,38 @@ class Subscription:
 
     def __init__(self,
                  city,
-                 city_operator,
-                 stationid,
-                 stationid_operator,
+                 city_op,
+                 station_id,
+                 station_id_op,
                  temp=None,
-                 temp_operator=None,
+                 temp_op=None,
                  rain=None,
-                 rain_operator=None,
+                 rain_op=None,
                  wind=None,
-                 wind_operator=None,
-                 direction=None,
-                 direction_operator=None,
+                 wind_op=None,
+                 dir=None,
+                 dir_op=None,
                  date=None,
-                 date_operator=None):
+                 date_op=None):
 
         self.city = city
-        self.stationid = stationid
+        self.station_id = station_id
         self.temp = temp
         self.rain = rain
         self.wind = wind
-        self.direction = direction
+        self.dir = dir
         self.date = date
 
-        self.city_operator = city_operator
-        self.stationid_operator = stationid_operator
-        self.temp_operator = temp_operator
-        self.rain_operator = rain_operator
-        self.wind_operator = wind_operator
-        self.direction_operator = direction_operator
-        self.date_operator = date_operator
+        self.city_op = city_op
+        self.station_id_op = station_id_op
+        self.temp_op = temp_op
+        self.rain_op = rain_op
+        self.wind_op = wind_op
+        self.dir_op = dir_op
+        self.date_op = date_op
 
     def __repr__(self):
-        subscription_details = f"{{(stationid,{self.stationid});(city,\"{self.city}\");"
+        subscription_details = f"{{(station_id,{self.station_id});(city,\"{self.city}\");"
 
         if self.temp is not None:
             subscription_details += f"(temp,{self.temp});"
@@ -44,8 +44,8 @@ class Subscription:
         if self.wind is not None:
             subscription_details += f"(wind,{self.wind});"
 
-        if self.direction is not None:
-            subscription_details += f"(direction,\"{self.direction}\");"
+        if self.dir is not None:
+            subscription_details += f"(dir,\"{self.dir}\");"
 
         if self.date is not None:
             subscription_details += f"(date,{self.date})"
