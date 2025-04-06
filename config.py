@@ -28,8 +28,8 @@ STATION_TO_CITY = {
     27: "Suceava"
 }
 
-PUBLICATIONS_COUNT = 10
-SUBSCRIPTIONS_COUNT = 5
+PUBLICATIONS_COUNT = 100000
+SUBSCRIPTIONS_COUNT = 100000
 
 SUBSCRIPTIONS_FIELDS_WEIGHTS = {
     # station_id and city are always present
@@ -80,3 +80,4 @@ OPERATIONS_WEIGHTS = {
         "<=": 0.3
     }
 }
+THREAD_COUNT = 1
