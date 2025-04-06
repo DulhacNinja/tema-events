@@ -1,0 +1,5 @@
+{(station_id,!=,2);(city,!=,"Bucuresti");(rain,<=,52.8);(date,>=,16.12.2024)}
+{(station_id,=,8);(city,=,"Timisoara");(temp,=,14.64);(dir,=,"NW");(date,>=,04.08.2024)}
+{(station_id,=,9);(city,=,"Iasi");(temp,<=,16.94);(rain,>=,37.58);(dir,=,"NE");(date,>=,07.09.2025)}
+{(station_id,=,26);(city,=,"Ramnicu Valcea");(temp,>=,24.12);(dir,=,"W");(date,<=,29.12.2024)}
+{(station_id,!=,11);(city,=,"Brasov");(temp,=,6.68);(dir,=,"W");(date,=,04.04.2024)}

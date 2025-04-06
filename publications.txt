@@ -1,0 +1,10 @@
+{(station_id,1);(city,"Bucuresti");(temp,24.48);(rain,77.55);(wind,76.49);(dir,"E");(date,12.10.2024)}
+{(station_id,3);(city,"Bucuresti");(temp,0.52);(rain,27.51);(wind,73.11);(dir,"S");(date,10.06.2025)}
+{(station_id,7);(city,"Timisoara");(temp,16.16);(rain,72.22);(wind,41.6);(dir,"SE");(date,07.02.2025)}
+{(station_id,13);(city,"Craiova");(temp,2.62);(rain,76.87);(wind,67.04);(dir,"NW");(date,09.06.2025)}
+{(station_id,4);(city,"Cluj-Napoca");(temp,11.32);(rain,76.29);(wind,59.8);(dir,"NE");(date,07.06.2024)}
+{(station_id,10);(city,"Iasi");(temp,30.58);(rain,81.09);(wind,67.04);(dir,"S");(date,06.10.2024)}
+{(station_id,20);(city,"Bacau");(temp,33.87);(rain,9.52);(wind,7.52);(dir,"SW");(date,07.01.2024)}
+{(station_id,2);(city,"Bucuresti");(temp,16.1);(rain,6.23);(wind,51.46);(dir,"NW");(date,01.01.2025)}
+{(station_id,22);(city,"Sibiu");(temp,8.81);(rain,75.31);(wind,67.97);(dir,"E");(date,31.12.2023)}
+{(station_id,20);(city,"Bacau");(temp,-7.7);(rain,54.96);(wind,47.68);(dir,"NE");(date,08.02.2023)}
